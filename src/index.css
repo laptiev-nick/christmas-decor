@@ -3,9 +3,14 @@
 :root {
   --accent-color: #BB2529;
   --bg-primary: #FFFFFF;
+  --header-bg: #BB2529;
+  --socials-bg-hover: #4F4F4F;
+  --socials-fill-hover: #FFFFFF;
+  --socials-fill: #4F4F4F;
   --text-color-primary: #4F4F4F;
   --text-color-title: #232323;
   --text-color-accent: #BB2528;
+  --text-underline: #232323;
 }
 
 body {
