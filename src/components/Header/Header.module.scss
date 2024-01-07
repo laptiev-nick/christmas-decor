@@ -5,7 +5,8 @@
 .topPanel {
     display: flex;
     justify-content: space-between;
-    padding: 10px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .topPanelText {
@@ -30,7 +31,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .listsWrapper {

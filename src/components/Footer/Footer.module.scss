@@ -1,5 +1,22 @@
-// .footer {
-//     height: 100px;
-//     width: 100%;
-//     background-color: blue;
-// }
+.footer {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: var(--text-color-thirdly);
+    background-color: var(--footer-bg);
+}
+
+.blocksWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+}
+
+.description {
+    margin-top: 30px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+}
+
+.title {
+    font-family: "Playfair Display", serif;
+}

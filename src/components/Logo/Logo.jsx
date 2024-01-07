@@ -1,15 +1,26 @@
 import { Link } from 'react-router-dom';
-import { ReactComponent as LogoIcon } from '../../icons/original-desk-1x-logo-desk-1x.svg';
+import { ReactComponent as LogoBlackIcon } from '../../icons/logo-black.svg';
+import { ReactComponent as LogoWhiteIcon } from '../../icons/logo-white.svg';
 import styles from './Logo.module.scss';
 
-export const Logo = () => {
+export const Logo = ({ color }) => {
     return (
-        <Link to={'/'}>
-            <LogoIcon
-                width={96}
-                height={70}
-                className={styles.logo} 
-            />
-        </Link>     
-    )
-}
+        color === 'white' ? (
+            <Link to={'/'}>
+                <LogoWhiteIcon
+                    width={96}
+                    height={70}
+                    className={styles.logo} 
+                />
+            </Link>
+        ) : (
+            <Link to={'/'}>
+                <LogoBlackIcon
+                    width={96}
+                    height={70}
+                    className={styles.logo} 
+                />
+                </Link>
+            )
+    );
+};
