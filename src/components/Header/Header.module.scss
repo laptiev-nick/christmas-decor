@@ -1,0 +1,19 @@
+.header {
+   background-color: #BB2528;
+}
+
+.topPanel {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.topPanelText {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.navigation {
+    background-color: var(--bg-primary);
+}

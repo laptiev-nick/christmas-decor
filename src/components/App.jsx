@@ -1,16 +1,15 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Layout } from 'components/Layout/Layout';
+import { Main } from './Main/Main';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
+    <BrowserRouter basename="christmas-decor">
+       <Routes> 
+        <Route path="/" element={<Layout />}> 
+          <Route index element={<Main />} /> 
+        </Route> 
+      </Routes> 
+    </BrowserRouter>
+    )
 };
