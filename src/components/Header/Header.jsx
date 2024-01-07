@@ -14,10 +14,10 @@ export const Header = () => {
                         <p className={styles.topPanelText}>Open 8 am - 8 pm</p>
                     </li>
                     <li className={styles.topPanelItem}>
-                        <a className={styles.topPanelText} href="tel:+12345678900">+1 (234) 567 89 00</a>
+                        <a className={styles.topPanelTextUnderlined} href="tel:+12345678900">+1 (234) 567 89 00</a>
                     </li>
                     <li className={styles.topPanelItem}>
-                        <a className={styles.topPanelText} href="mailto:christmasdecor@email.com">christmasdecor@email.com</a>
+                        <a className={styles.topPanelTextUnderlined} href="mailto:christmasdecor@email.com">christmasdecor@email.com</a>
                     </li>
                 </ul>
             </Container>

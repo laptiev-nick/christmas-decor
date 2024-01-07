@@ -14,6 +14,14 @@
     color: var(--bg-primary);
 }
 
+.topPanelTextUnderlined {
+    @extend .topPanelText;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 .navigation {
     background-color: var(--bg-primary);
 }
@@ -41,6 +49,7 @@
     position: relative;
     padding-top: 12px;
     padding-bottom: 12px;
+    color: var(--text-color-secondary);
 
     &::after {
         content: '';
